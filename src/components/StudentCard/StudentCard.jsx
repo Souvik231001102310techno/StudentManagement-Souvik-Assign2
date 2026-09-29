@@ -20,7 +20,7 @@ function StudentCard({ student, index }) {
         <img
           src={student.photo}
           alt={student.name}
-          className="student-photo"
+          //className="student-photo"
         />
       </div>
 
