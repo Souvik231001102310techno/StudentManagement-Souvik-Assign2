@@ -4,7 +4,7 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:"/StudentManagement-Souvik-Assign2/",
+  //base:"/StudentManagement-Souvik-Assign2/",
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] })
