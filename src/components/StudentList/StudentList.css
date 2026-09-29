@@ -1,0 +1,19 @@
+.student-count {
+  animation: countIn 0.8s ease both;
+}
+
+.student-grid {
+  perspective: 1200px;
+}
+
+@keyframes countIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
